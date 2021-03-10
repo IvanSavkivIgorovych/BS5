@@ -1,0 +1,155 @@
+.navbar-dark .navbar-nav .nav-link {
+    color: #ffffff;
+}
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: rgba(71, 67, 71, 0.933);
+}
+.btn-outline-dark {
+    color: #fff;
+    border-color: #fff;
+}
+.btn-outline-dark:hover {
+    background-color: rgba(71, 67, 71, 0.933);
+    border-color: #fff;
+}
+#hero {
+    width: 100%;
+    height: 100vh;
+    background: url(https://images.pexels.com/photos/5908618/pexels-photo-5908618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed top center;
+    background-size: cover;
+    position: relative;
+}
+#hero:before {
+    content: "";
+    background: rgba(0, 0, 0, 0.6);
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+}
+#hero .container {
+    position: relative;
+    padding-top: 75px;
+}
+#hero h1 {
+    margin: 0;
+    font-size: 56px;
+    font-weight: 700;
+    line-height: 64px;
+    color: #ffffff;
+    font-family: "Poppins", sans-serif;
+}
+#hero h2 {
+    color: #ffffff;
+    margin: 10px 0 0 0;
+    font-size: 24px;
+}
+#hero .icon-box h3 {
+    font-weight: 700;
+    margin-top: 10px;
+    padding: 0;
+    font-size: 20px;
+    line-height: 26px;
+}
+#hero .icon-box h3 a {
+    color: #fff;
+}
+#hero .icon-box h3 a:hover {
+    color: #dbd813;
+}
+#hero .icon-box {
+    padding: 30px 20px;
+    border: 1px solid rgba(255, 255, 255, 0.3);
+    height: 100%;
+    text-align: center;
+}
+#hero .icon-box:hover {
+    border-color: #dbd813;
+}
+.about li {
+    list-style-type: none;
+}
+.cta {
+    background: linear-gradient(rgba(2,2,2,.5), rgba(2,2,2,.8)), url(https://images.pexels.com/photos/5908618/pexels-photo-5908618.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940) fixed center center;
+    padding: 80px 0;
+    color: #fff;
+}
+.cta h3 {
+    font-weight: 700;
+    font-size: 28px;
+}
+.cta .cta-btn {
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 8px 28px;
+    border: 2px solid #fff;
+    border-radius: 4px;
+    color: #fff;
+    margin-top: 10px;
+}.cta .cta-btn:hover {
+    background: #dbd813;
+    border-color: #dbd813;
+    color: #151515;
+}
+.carousel-indicators {
+    bottom: -80px;
+}
+.carousel-indicators [data-bs-target] {
+    background-color: black;
+}
+.team {
+    padding: 60px;
+}
+.team .member {
+    margin-bottom: 20px;
+    overflow: hidden;
+    border-radius: 5px;
+    box-shadow: 0px 2px 15px rgba(0, 0, 0, 0.5);
+}
+.team .member .member-img {
+    position: relative;
+    overflow: hidden;
+}
+.team .member .social {
+    position: absolute;
+    left: 0;
+    bottom: 30px;
+    right: 0;
+    opacity: 0;
+    transition: ease-in-out 0.3s;
+}
+.team .member .social a {
+    transition: color 0.3s;
+    color: #151515;
+    margin: 0 3px;
+    padding-top: 7px;
+    border-radius: 4px;
+    width: 36px;
+    height: 36px;
+    background: rgba(255, 255, 255, 0.8);
+    display: inline-block;
+}
+.team .member .social a:hover {
+    background: #dbd813;
+}
+.team .member .member-info {
+    padding: 25px 5px;
+}
+.team .member .member-info h4 {
+    font-weight: 700;
+    margin-bottom: 5px;
+    font-size: 18px;
+}
+.team .member .member-info span {
+    display: block;
+    font-size: 13px;
+    font-weight: 400;
+    color: #aaaaaa;
+}    
+.team .member:hover .social {
+    opacity: 1;
+    bottom: 15px;
+}
